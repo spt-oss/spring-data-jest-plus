@@ -1,0 +1,10 @@
+.checkstyle
+.classpath
+.project
+.settings
+
+target
+pom.xml.*
+
+*-my.xml
+*-my.yml

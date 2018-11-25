@@ -1,0 +1,19 @@
+---
+
+spring.profiles: test-repository
+
+spring.profiles.include:
+    - test-my
+
+spring.data.jest:
+    uri: https://search-XXXXX-XXXXX.us-west-1.es.amazonaws.com/
+
+cloud.aws:
+    credentials:
+        accessKey: ABCDEFGHIJKLMNOPQRST
+        secretKey: ABc1d2EfGhIjkLMnOpqRS3+tuVwXYzabCDeFGh4i
+    region:
+        auto: false
+        static: us-west-1
+
+---
