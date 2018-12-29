@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.github.spt-oss</groupId>
 		<artifactId>spt-oss-parent</artifactId>
-		<version>8.0.0</version>
+		<version>8.0.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>spring-data-jest-parent</artifactId>
@@ -38,7 +38,7 @@
 		<spring-boot-starter-data-jest.version>3.1.5.RELEASE</spring-boot-starter-data-jest.version>
 		<spring-cloud-aws.version>2.0.1.RELEASE</spring-cloud-aws.version>
 		<spring-data-elasticsearch.version>3.0.11.RELEASE</spring-data-elasticsearch.version>
-		<spt-checkstyle.version>8.12.0</spt-checkstyle.version>
+		<spt-checkstyle.version>8.15.0</spt-checkstyle.version>
 	</properties>
 
 	<dependencyManagement>
