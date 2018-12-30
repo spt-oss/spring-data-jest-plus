@@ -5,7 +5,7 @@
 [![javadoc](https://img.shields.io/badge/javadoc-spring--data--jest--plus-blue.svg)](https://www.javadoc.io/doc/com.github.spt-oss/spring-data-jest-plus)
 
 * Custom implementation for [Spring Data Jest](https://github.com/VanRoy/spring-data-jest)
-* ⚠️**This project is unofficial and experimental.**
+* **Note: This project is unofficial and experimental.**
 
 ## Dependencies
 
@@ -16,7 +16,12 @@
 	* org.springframework.boot:spring-boot-starter-json:**2.0.6.RELEASE**
 	* org.springframework.cloud:spring-cloud-aws-autoconfigure:**2.0.1.RELEASE**
 	* org.springframework.data:spring-data-elasticsearch:**3.0.11.RELEASE**
-	* ...
+	* ......
+* com.github.spt-oss:spring-boot-starter-data-jest:**3.1.5.1**
+	* org.elasticsearch:elasticsearch:**5.6.14**
+	* org.springframework.boot:spring-boot-starter-json:**2.0.7.RELEASE**
+	* org.springframework.data:spring-data-elasticsearch:**3.0.12.RELEASE**
+	* ......
 
 ## Usage
 
@@ -28,7 +33,7 @@
 	<dependency>
 	    <groupId>com.github.spt-oss</groupId>
 	    <artifactId>spring-boot-starter-data-jest</artifactId>
-	    <version>3.1.5.0</version>
+	    <version>3.1.5.1</version>
 	</dependency>
 	```
 
